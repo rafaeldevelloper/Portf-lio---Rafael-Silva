@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./components/img/Logo-Rs.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://getbootstrap.com/">
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="./components/css/style.css" />
+  <title>Portfólio - Rafael Silva</title>
+</head>
+<body id="index">
+  <!-- <div class="btnMenu">
+    <button id="buttonOpenMenu" onclick="buttonOpenMenuResponse()">
+      <i class="bi bi-list"></i>
+    </button>
+  </div> -->
+
+  <!-- <div class="navBarMenuResponse">
+    <button>
+      <i class="bi bi-x-lg"></i>
+    </button>
+    
+    <div class="navBarResponse">
+      <a href="#index">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div> -->
+
+  <header class="header_container">
+    <!-- <h2 class="nav_logo">Portfólio<span> | </span>RS</h2> -->
+    <img src="./components/img/Logo-Rs.png" alt="Logo" class="img-logo">
+    <nav>
+      <!-- <div class="nav__logo"><a href="#">Portfólio<span> | </span>RS</a></div> -->
+      <a href="#index">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="menu_response">
+    <div class="navBarMenuResponse">
+      <button class="btnCloseMenuResponse" onclick="btnCloseMenuResponse()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+  
+      <div class="navBarResponse">
+        <a href="#index">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Icon response: -->
+  <button class="btn_response" onclick="btnOpenMenuResponse()">
+    <i class="bi bi-list"></i>
+  </button>
+  
+  <div class="section_home_sobre">
+    <p><span>Olá</span>eu sou</p>
+    <h1>Rafael Silva</h1> 
+    <h2 class="section_title">Desenvolvedor Web <span>Front-End</span></h2>
+    <p class="description_home_sobre">
+      Bem-vindo ao meu portfólio de desenvolvedores web! Meu nome é Mustakim, um desenvolvedor web habilidoso e criativo, apaixonado por criar sites bonitos, responsivos e fáceis de usar. Trabalhei em diversos projetos web, desde blogs pessoais até plataformas de comércio eletrônico.
+    </p>
+    <button class="btn">Baixar CV</button>
+  </div>
+  
+  <section class="sobre" id="sobre">
+    <div class="section_sobre">
+      <div class="img_profile">
+        <img src="./components/img/foto-perfil.jpg" alt="about" />
+      </div>
+      <div class="sobre_content">
+        <h2 class="section_title">Sobre <span>mim:</span></h2>
+        <p class="about_details">
+          Como UI/UX designer, me especializo na criação de interfaces de usuário e experiências para produtos digitais. Tenho vasta experiência trabalhando com gerentes de produto, desenvolvedores e outras partes interessadas para coletar requisitos, criar wireframes e protótipos e conduzir testes de usuário para garantir que o produto final atenda às necessidades dos usuários. Ao longo da minha carreira, alcancei vários marcos, incluindo o desenvolvimento de produtos digitais de sucesso que receberam feedback positivo de usuários e partes interessadas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="minhas_habilidades" id="habilidades">
+    <div class="naosei">
+      <h2 class="section_title">Minhas <span>Habilidades:</span></h2>
+      <div class="grid">
+        <div class="service_card">
+          <h4>HTML</h4>
+          <span>(Básico)</span>
+        </div>
+
+        <div class="service_card">
+          <h4>CSS</h4>
+          <span>(Básico)</span>
+        </div>
+
+        <div class="service_card">
+          <h4>JavaScript</h4>
+          <span>(Básico)</span>
+        </div>
+
+        <div class="service_card">
+          <h4>React.Js</h4>
+          <span>(Básico)</span>
+        </div>
+
+        <div class="service_card">
+          <h4>Node.Js</h4>
+          <span>(Básico)</span>
+        </div>
+
+        <div class="service_card">
+          <h4>Bootstrap</h4>
+          <span>(Básico)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section_title">Meus <span>Projetos:</span></h2>
+    <div class="container_projects">
+      <div class="project_grid">
+        <div class="project_card">
+          <img src="./components/img/Clone_IPhone_13.png" alt="project" />
+          <p>
+            Projeto feito com <b>HTML, CSS e JavaScript</b> <br/> <br/>
+            Projeto com intuito de aprender a manipular mudança de cores e imagens com JavaScript
+          </p>
+          <div class="buttons">
+            <button>
+              <a href="#" target="_blank">Repositório</a>
+            </button>
+            <button>
+              <a href="./components//Projects/LandingPage_IPhone/index.html" target="_blank">Acessar site</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="project_card" id="relogio">
+          <img src="./components/img/Relogio_Digital.png" alt="project" />
+          <br><br>
+          <p>
+            Projeto feito com <b>HTML, CSS e JavaScript</b> <br/> <br/>
+            Projeto com intuito de aprender a manipular mudança de cores e imagens com JavaScript
+          </p>
+          <div class="buttons">
+            <button>
+              <a href="#" target="_blank">Repositório</a>
+            </button>
+            <button>
+              <a href="./components/Projects/Relogio_Digital/index.html" target="_blank">Acessar site</a>
+            </button>
+          </div>
+        </div>
+        
+        <div class="project_card">
+          <img src="./components/img/ToDo_List.png" alt="project" />
+          <br><br>
+          <p>
+            Projeto feito com <b>HTML, CSS e JavaScript</b> <br/> <br/>
+            Projeto com intuito de aprender a manipular mudança de cores e imagens com JavaScript
+          </p>
+          <div class="buttons">
+            <button>
+              <a href="#" target="_blank">Repositório</a>
+            </button>
+            <button>
+              <a href="./components/Projects/ToDoList_JS/index.html" target="_blank">Acessar site</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="contato">
+    <div class="section_contact" id="contato">
+      <div class="footer_content">
+        <h2 class="section_title">Redes sociais:</h2>
+        <div class="social_icons">
+          <a href="#" class="icon"><i class="ri-github-fill"></i></a>
+          <a href="#" class="icon"><i class="ri-instagram-line"></i></a>
+          <a href="#" class="icon"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+      <form class="footer_form" id="formulario_contato">
+        <h2 class="section_title">Entre em contato:</h2>
+        <input type="text" class="input" id="name" placeholder="Nome:" />
+        <span class="mensage_error">Nome inválido</span>
+        <input type="text" class="input" id="email" placeholder="E-mail:" />
+        <span class="mensage_error">E-mail inválido</span>
+        <input type="tel" class="input" id="phone" placeholder="Telefone: (99) 99999-9999" />
+        <span class="mensage_error">Telefone inválido</span>
+        <button type="submit" class="btn" id="buttonSubmit" onclick="buttonSubmit()">
+          Enviar
+        </button>
+      </form>
+    </div>
+  </footer>
+
+<script src="./components/js/script.js"></script>
+</body>
+</html>
